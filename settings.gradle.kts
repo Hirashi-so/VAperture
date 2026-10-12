@@ -27,6 +27,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Aperture"
+rootProject.name = "VAperture"
 include(":app")
 include(":lens_launcher")

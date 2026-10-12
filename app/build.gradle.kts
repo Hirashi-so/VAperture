@@ -18,8 +18,8 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "org.lineageos.aperture"
-        minSdk = 26
+        applicationId = "com.hirashi.vaperture"
+        minSdk = 33
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
