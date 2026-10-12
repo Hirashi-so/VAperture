@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 VAperture Contributors
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/va_camera_diagnostics_device_header">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="va_camera_diagnostics_device"
+            app:selectable="false"
+            app:title="@string/va_camera_diagnostics_device_title" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="va_camera_diagnostics_status"
+            app:selectable="false"
+            app:summary="@string/va_camera_diagnostics_scanning"
+            app:title="@string/va_camera_diagnostics_status_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:key="va_camera_diagnostics_cameras"
+        app:title="@string/va_camera_diagnostics_cameras_header" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/va_camera_diagnostics_export_header">
+
+        <Preference
+            app:enabled="false"
+            app:iconSpaceReserved="false"
+            app:key="va_camera_diagnostics_export"
+            app:summary="@string/va_camera_diagnostics_export_summary"
+            app:title="@string/va_camera_diagnostics_export_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

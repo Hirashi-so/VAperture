@@ -126,6 +126,13 @@
             app:iconSpaceReserved="false"
             app:title="@string/processing_title" />
 
+        <Preference
+            app:fragment="org.lineageos.aperture.diagnostics.VApertureCameraDiagnosticsFragment"
+            app:iconSpaceReserved="false"
+            app:key="va_camera_diagnostics"
+            app:summary="@string/va_camera_diagnostics_summary"
+            app:title="@string/va_camera_diagnostics_title" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
